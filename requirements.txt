@@ -1,5 +1,7 @@
-Vue == v3.2.47
-Node == v20.0.0
-npm == v9.6.4
-Flask == v2.2.3
-Python == v3.11.3
+@vue/cli 5.0.8
+Flask == 2.2.3
+Werkzeug == 2.2.2
+Flask-Cors == 3.0.10
+npm == 10.2.3
+Python == 3.11.0
+Node == v20.10.0
