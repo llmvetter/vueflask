@@ -4,4 +4,5 @@ to run this basic demo, please install the dependecies according to the requirem
 
 2. install Node from https://nodejs.org/en using the LTS version for your system, this will include npm
 
-3. run "npm create vue@3.6.1"
+3. run "npm install -g @vue/cli 5.0.8"
+4. run "npm create vue@3.6.1"
