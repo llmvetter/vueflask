@@ -69,7 +69,7 @@
               <input
                 type="text"
                 class="form-control"
-                id="addBookAuthor"
+                id="addPatientStatus"
                 v-model="addPatientForm.status"
                 placeholder="Enter patient status">
             </div>
@@ -119,7 +119,7 @@ export default {
     };
   },
   methods: {
-    addBook(payload) {
+    addPatient(payload) {
       const path = 'http://localhost:5000/patients';
       axios.post(path, payload)
         .then(() => {
@@ -147,10 +147,6 @@ export default {
     },
     handleAddSubmit() {
       this.toggleAddBookModal();
-      let read = false;
-      if (this.addPatientForm.read[0]) {
-        read = true;
-      }
       const payload = {
         full_name: this.addPatientForm.full_name,
         status: this.addPatientForm.status,
