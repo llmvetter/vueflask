@@ -1,0 +1,5 @@
+Vue == v3.2.47
+Node == v20.0.0
+npm == v9.6.4
+Flask == v2.2.3
+Python == v3.11.3
